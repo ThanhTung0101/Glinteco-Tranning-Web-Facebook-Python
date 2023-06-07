@@ -1,0 +1,321 @@
+#main {
+    /* border: 2px solid black; */
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 10000px;
+    /* border-radius: 9px; */
+}
+
+#header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 56px;
+    width: 1349px;
+    background-color: #ffffff;
+    display: flex;
+    z-index: 100000; /* Hiển thị là lớp trên cùng*/
+    box-shadow: 0px 10px 10px rgba(121, 120, 120, 0.3);
+}
+
+.header_left {
+    display: flex;
+    width: 360px;
+    height: 56px;
+}
+
+.iconFacebookImg {
+    height: 40px;
+    width: 40px;
+    margin: 10px 0px 0px 16px;
+    border-radius: 50%;
+}
+
+.search-btn {
+    display: flex;
+    height: 40px;
+    width: 280px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 50px;
+    background-color: #F0F2F5;
+}
+
+#search-btn {
+    height: 24px;
+    width: 236px;
+    padding: 7px 8px 9px;
+    background-color: #F0F2F5;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+.buttonSearch {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: none;
+}
+
+.fa-search {
+    margin: auto;
+}
+
+.header_center {
+    display: flex;
+    margin-left: 100px;
+}
+
+.menuButtonCenter {
+    height: 56px;
+    width: 111.59px;
+    display: flex;
+    cursor: pointer;
+}
+
+.fa-home, .fa-store, .fa-users, .fa-gamepad,
+.fa-bars, .fa-comments, .fa-bell {
+    margin: auto;
+}
+
+.header_right {
+    display: flex;
+    margin-left: 230px;
+}
+
+.menuButtonRight {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    border-radius: 50%;
+    background-color: #E4E6EB;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.avtUserMini {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0px -6px;
+}
+
+#backgroundfb {
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 1349px;
+    height: 348.14px;
+    background-color: #ffffff;
+    position: relative;
+    /* border: 2px solid rgb(161, 149, 149); */
+}
+
+.backgroundPython {
+    height: 440.55px;
+    width: 940px;
+    margin: 0px 204.5px;
+    /* box-shadow: 20px 0px rgba(121, 120, 120, 0.3); */
+    /* box-shadow: -200px 0px rgba(121, 120, 120, 0.3); */
+    
+}
+
+#avatarUserFb {
+    display: flex;
+    height: 100.98px;
+    width: 908px;
+    top: 93px;
+    left: 0;
+    right: 0;
+    margin: 0px 220.5px;
+    /* background-color: #71eb41; */
+    position: relative;
+}
+
+.avatarUserFb_left {
+    margin: 0px 16px;
+    display: flex;
+}
+
+.avtPython {
+    height: 168px;
+    width: 168px;
+    border-radius: 50%;
+    margin: -70px 0px;
+    bottom: 0;
+}
+
+.nameUserFb {
+    height: 52.98px;
+    width: 341.58px;
+    margin: -17px 12px 16px;
+}
+
+.nameUserFb_top {
+    height: 22px;
+    width: 253.72px;
+    /* font-size: 32px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #050505;
+}
+
+.nameUserFb_bottom {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 10.98px;
+    width: 253.72px;
+    color: #65676B;
+    margin-top: 28px;
+}
+
+a {
+    color: #65676B;
+    text-decoration: none;
+}
+
+.avatarUserFb_right {
+    height: 44px;
+    width: 320.42px;
+    display: flex;
+}
+
+.button_Like, .button_Search, .button_Messenger {
+    border-radius: 5px;
+    margin: 40px 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button_Messenger {
+    height: 36px;
+    width: 105.05px;
+    background-color: #1B74E4;
+}
+
+.button_Messenger_group {
+    display: flex;
+    /* margin: 10px 10px; */
+}
+
+.fa-commenting {
+    margin: 17px 0px;
+}
+
+.text_button_Messenger {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 6px 4px;
+}
+
+.button_Like {
+    height: 36px;
+    width: 82.72px;
+    background-color: #E4E6EB;
+}
+
+.button_Like_group {
+    display: flex;
+}
+
+.fa-thumbs-up {
+    margin: 17px 5px;
+}
+
+.text_button_Like {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-size: 15px;
+    margin: 6px 2px;
+}
+
+.button_Search {
+    height: 36px;
+    width: 108.66px;
+    background-color: #E4E6EB;
+}
+
+.button_Search_group {
+    display: flex;
+}
+
+.button_Search .fa-search {
+    margin: 17px 5px;
+}
+
+.text_button_Search {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-size: 15px;
+    margin: 6px -1px;
+}
+
+#content {
+    display: flex;
+    height: 60px;
+    width: 892px;
+    top: 93px;
+    left: 0;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0px 220.5px;
+    border-top: 0.5px solid #888888;
+    box-shadow: 0px 10px 10px rgba(121, 120, 120, 0.3);
+}
+
+.content_left {
+    background-color: #ffffff;
+    display: flex;
+}
+
+.content_1, .content_2, .content_3, .content_4, .content_5, .content_6, .content_7 {
+    background-color: #ffffff;
+    display: flex;
+    /* width: 81.86px; */
+    height: 60px;
+    /* padding: 0px 16px; */
+    border: none;
+    color: #65676B;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.fa-caret-down {
+    margin: 14px 4px;
+}
+
+.content_right {
+    margin: 10px 0px 0px 292px;
+}
+
+.button_3cham {
+    background-color: #E4E6EB;
+    height: 36px;
+    width: 48px;
+    border-radius: 6px;
+    border: none;
+}
+
+.fa-ellipsis-h {
+    margin: auto;
+}
+
+a:hover {
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    /* border-radius: 10px;
+    border: 0px; */
+}
+
+.header_right button:hover {
+    border-radius: 50%;
+}
